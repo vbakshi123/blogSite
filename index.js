@@ -16,7 +16,7 @@ app.set('view engine', 'ejs');
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static("public"));
 // mongoose.connect('mongodb://localhost:27017/blogSite', { useNewUrlParser: true });
-mongoose.connect('mongodb+srv://admin-vishal:Test123@cluster0-mdbzy.mongodb.net/blogSite', { useNewUrlParser: true });
+mongoose.connect('mongodb+srv://admin-vishal:XXX@cluster0-mdbzy.mongodb.net/blogSite', { useNewUrlParser: true });
 
 const blogSchema = new mongoose.Schema({
   heading: String,
